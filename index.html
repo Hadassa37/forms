@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data"></form>
+    <div>
+        <p>Имя</p>
+        <input type="text" name="username" value="">
+    </div>
+    <div>
+        <p>Пароль</p>
+        <input type="password" name="password" value="">
+    </div>
+    <div>
+        <p>Телефон</p>
+        <input type="tel" name="telephone" value="">
+    
+    </div>
+
+    <div>
+        <p>
+            <input type="radio" name="sex1" value="male"/>Мужской
+        </p>
+        <p>
+            <input type="radio" name="sex1" value="female"/>Женский
+        </p>
+    </div>
+
+    <div>
+        <p>статус</p>
+        <p>
+            <input type="checkbox" name="student" id="01" value="yes"/>Студент
+        </p>
+        <p>
+            <input type="checkbox" name="worker" id="02" value="yes"/>Рабочий
+        </p>
+        <p>
+            <input type="checkbox" name="pensioner" id="03" value="yes"/>Пенсионер
+        </p>
+    </div>
+    <div>
+        <p>Дополнительная информация</p>
+        <textarea name="text"></textarea>
+    </div>
+
+    <div>
+        <p>Прикрепить фото</p>
+        <p><input type="file" name="photo"/></p>
+    </div>
+    <div>
+        <p>Любимый цвет</p>
+        <select name="color">
+            <option value="red">Красный</option>
+            <option value="green">Зеленый</option>
+            <option value="black">Черный</option>
+            <option value="white">Белый</option>
+        </select>
+    </div>
+    <div>
+        <p>Действие</p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Отмена</button>
+    </div>
+
+
+    
+</body>
+</html>
